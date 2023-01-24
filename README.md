@@ -1,11 +1,12 @@
-# DT-RN-chapitre2
-Source code for INSEE Working Paper on use cases of neural networks with Official Statistics
-
-## Chapitre 2 : Prédire pour imputer
+# Chapitre 2 : Prédire pour imputer
 Ce répertoire contient le code produisant les résultats du chapitre 2. Le programme est en **python**, le réseau de neurone est réalisé avec les librairies **Keras** et **Tensorflow**.
 
-Le code exploite des données disponibles uniquement en interne sur les serveurs de calcul de l'Insee (fichiers de production de l'enquête Emploi). Il s'agit d'un notebook jupyter conçu pour être exploitable directement sur les collections rpython et lab.
+## Prise en main
+Le code exploite des données disponibles uniquement en interne sur les serveurs de calcul de l'Insee (fichiers de production de l'enquête Emploi). Il s'agit d'un notebook jupyter conçu pour être exploitable directement sur les collections rpython et lab de ces serveurs.
 
+Les résultats ne sont donc pas reproductibles en dehors de cet environnement et sans accès à ces données. La mise à disposition du code est à visée pédagogique
+
+## Organisation
 Le notebook se divise en 5 parties :
 1. Un préambule de chargement des packages et fonctions mobilisées
 2. La préparation des données: construction de la variable à imputer et des features, traitement des valeurs manquantes et vectorisation des nomenclatures
